@@ -1,7 +1,9 @@
 import React from 'react';
+import '../styles/global.scss';
 
 const App =  () => {
     return(
-<p>hola mundoo</p>
+    <h1> hola mundoo </h1>
     );
 }
+export default App
