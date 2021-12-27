@@ -1,9 +1,15 @@
 import React from 'react';
-import '../styles/global.scss';
+import Layout from '../container/Layout';
+import Login from '../container/Login';
+import RecoveryPassword from '../container/RecoveryPassword';
+import '../styles/global.css';
 
 const App =  () => {
     return(
-    <h1> hola mundoo </h1>
+    <Layout>
+        <Login />
+        <RecoveryPassword />
+    </Layout>
     );
 }
 export default App
