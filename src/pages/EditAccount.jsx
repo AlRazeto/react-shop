@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/cont_styles/EditAccout.scss'
 
-const EditAccout=()=>{
+const EditAccount=()=>{
     return(
         <div className="login">
             <div className="form-container">
@@ -21,4 +21,4 @@ const EditAccout=()=>{
         </div>
     )
 }
-export default EditAccout
+export default EditAccount

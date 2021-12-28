@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/pages_styles/ToyStore.scss'
 
-const ToyStore = () =>{
+const Store = () =>{
     return (
         <section className="main-container">
     <div className="cards-container">
@@ -127,4 +127,4 @@ const ToyStore = () =>{
 
     )
 }
-export default ToyStore
+export default Store
