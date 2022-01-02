@@ -6,7 +6,7 @@ import AppContext from '../context/AppContext';
 
 const ProductItem = ({product}) => {
 	const { addToCart }=useContext(AppContext)
-	const handleClick=(Item) => { addToCart(Item) }
+	const handleClick= Item => { addToCart(Item) }
 	
 	return (
 		<div className="ProductItem">
@@ -14,7 +14,7 @@ const ProductItem = ({product}) => {
 			<div className="product-info">
 				<div>
 					<p>${product.price}</p>
-					<p>{product.title}</p>
+					<p> {product.title}</p>
 				</div>
 				<figure onClick={() => handleClick(product)}>
 					<img src={addToCartImg} alt="" />

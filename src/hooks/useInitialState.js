@@ -13,6 +13,7 @@ const useInitialState=()=>{
             cart : [...state.cart, payload]
         })
     }
+    console.log(state.cart.length)
     return {state, addToCart}
 }
 export default useInitialState
